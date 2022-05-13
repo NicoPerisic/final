@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg">
+        <div class="container-fluid col-8">
+            <a class="navbar-brand" href="#"><img src="src/img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"">Examples</a>
+              </li>
+              <li class=" nav-item">
+                            <a class="nav-link" href="#"">Themes</a>
+              </li>
+              <li class=" nav-item">
+                                <a class="nav-link" href="#"">Expo</a>
+              </li>
+              <li class=" nav-item">
+                                    <a class="nav-link" href="#"">Blog</a>
+              </li>
+            </ul>
+            <form class=" d-flex">
+                                        <a class="nav-link nav-link-ver dropdown-toggle" href="#"
+                                            id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            v4.3
+                                        </a>
+                                        <a class="navbar-brand" href="#">
+                                            <img src="src/img/ico-git.png" alt="Icono github">
+                                        </a>
+                                        <a class="navbar-brand" href="#">
+                                            <img src="src/img/ico-twitter.png" alt="Icono twitter">
+                                        </a>
+                                        <a class="navbar-brand" href="#">
+                                            <img src="src/img/ico-slack.png" alt="Icono slack">
+                                        </a>
+                                        <a class="navbar-brand" href="#">
+                                            <img src="src/img/ico-coll.png" alt="Icono Coll">
+                                        </a>
+                                        <button class="btn btn-outline-warning" type="submit">Download</button>
+                                        </form>
+            </div>
+        </div>
+    </nav>
+    <main class="bg-white text-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <br>
+                    <h1>Bootstrap</h1>
+                    <br>
+                    <p>Build responsive, mobile-first projects on the web with the world's most popular front-end
+                        component library.</p>
+                    <p>Bootstrap is an open source toolkit for developing with HTML, CSS and JS. Quickly prototype your
+                        ideas or build your entire app with your Sass variables and mixins, responsive grid system,
+                        extensive prebuilt components, and poweful plugins built on jQuery.</p>
+                    <br>
+                    <button class="btn btn-outline-dark" type="submit">Get started</button>
+                    <button class="btn btn-outline-secondary" type="submit">Download</button>
+                    <br>
+                    <br>
+                    <small class="text-muted">Currently v4.3.1</small></p>
+                    <br>
+                    <div class="card mb-3 segment" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="src/img/ad-segment.png" class="card-img" alt="Segment logo" width="130px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <p class="card-text">Collect customer data once with a single API.
+                                        Power your entire tech stack.</p>
+                                    <p class="card-text"><small class="text-muted">ads via Carbon</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7"><img class="col-img" src="src/img/main_img.png" alt=""></div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <section class="container background">
+        <div class="row">
+            <div class="card-group bg-light">
+                <div class="col-4 lg-4">
+                    <div class="card border border-white bg-light">
+                        <img class="card-ico" src="src/img/ico-install.png" alt="..." width="40px">
+                        <div class="card-body">
+                            <h5 class="card-title">Installation</h5>
+                            <p class="card-text">Include Bootstrap's source Sass and JavaScript files via npm, Composer
+                                or Meteor. Package managed installs don't include documentation, but do include our
+                                build system and readme.
+
+                                <p>$ npm install bootstrap</p>
+
+                                <p>$ gem install bootstrap -v 4.3.1</p>
+                                <hr>
+                                <button class="btn btn-outline-primary" type="submit">Read installation docs</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 lg-4">
+                    <div class="card border border-white bg-light">
+                        <img class="card-ico" src="src/img/ico-cdn.png" alt="..." width="40px">
+                        <div class="card-body">
+                            <h5 class="card-title">BootstrapCDN</h5>
+                            <p class="card-text">When you only need to include Bootstrap's compiled CSS or JS, you can
+                                use BootstrapCDN. </p>
+
+                            <b>CSS only</b>
+                            <br>
+                            <textarea name="" id="" cols="34" rows="1"><link rel="stylesheet" href="http.</textarea>
+
+                            <br>
+                            <br>
+                            <b>JS, Popper.js and jQuery</b>
+                            <br>
+                            <textarea name="" id="" cols="35" rows="3"><script src="https://code.jquery....
+<script src="https://cdnjs.cloudf...
+<script src="https://stackpath.bo.... </textarea>
+                            <br>
+
+
+                            <hr>
+                            <button class="btn btn-outline-primary" type="submit">Read installation docs</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 lg-4">
+                    <div class="card border border-white bg-light">
+                        <img class="card-ico" src="src/img/ico-themes.png" alt="..." width="40px">
+                        <div class="card-body">
+                            <h5 class="card-title">Official Themes</h5>
+                            <p class="card-text">Take Bootstrap 4 to the next level with official premium themes--
+                                toolkits built on Bootstrap with new components and plugins, docs and build tools.</p>
+                            <img src="src/img/theme_img.png" alt="">
+                            <hr>
+                            <button class="btn btn-outline-primary" type="submit">Browse themes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid py-5 text-secondary">
+        <div class="col-12 lg-3">
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link disabled"><b>Github</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled"><b>Twitter</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled"><b>Examples</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled"><b>About</b></a>
+                </li>
+            </ul>
+
+
+            <p>Designed and built with all the love in the world by the <b>Bootstrap team</b> with the help of <b>our
+                    contributors.</b></p>
+            <p>Currently v4.3.1. Code licensed <b>MIT</b>, docs <b>CC BY 3.0</b>.</p>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
